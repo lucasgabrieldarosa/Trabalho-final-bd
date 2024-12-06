@@ -113,8 +113,6 @@ BEFORE DELETE ON Categoria
 FOR EACH ROW
 EXECUTE FUNCTION impedir_exclusao_categoria();
 
--- stored procedures
-
 
 
 
